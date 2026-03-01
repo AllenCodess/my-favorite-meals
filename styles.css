@@ -103,3 +103,20 @@ a {
 .img-container {
   padding-top: 1rem;
 }
+
+@media (max-width: 768px) {
+  .foods-container {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    grid-template-columns: 1fr;
+  }
+
+  .filst {
+    font-size: 20px;
+    width: 70%;
+    margin: 1rem auto;
+  }
+}

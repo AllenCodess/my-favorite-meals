@@ -7,3 +7,30 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.4rem 0;
+}
+
+/* nav section */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
